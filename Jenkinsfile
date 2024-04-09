@@ -17,7 +17,6 @@ pipeline {
     }
     // 위에 크리덴셜 젠킨스에서 설정한거랑 이름 똑같은지 잘 봐야 함. 나 자꾸 마지막 s 빼먹음
     
-        stages {
         stage('Checkout') {
             steps {
                 git branch: 'main',
