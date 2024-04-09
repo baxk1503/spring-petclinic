@@ -67,7 +67,7 @@ pipeline {
             }
             post {
                 success {
-                    echo "Push Docker Image success!"
+                    echo "Push Docker Image success!!"
                 }
             }
         }
